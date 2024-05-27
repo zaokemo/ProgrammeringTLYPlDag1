@@ -1,0 +1,70 @@
+body {
+  background-color: #4CAF50;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#fruitContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; /* Center the fruit boxes vertically */
+  margin-bottom: 20px;
+}
+
+.fruitBox {
+  width: 150px;
+  height: 300px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px; /* Adjusted font size for larger emojis */
+}
+
+.points {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.points h2 {
+  margin-top: 0;
+}
+
+.points ul {
+  list-style: none;
+  padding: 0;
+}
+
+.points li {
+  margin-bottom: 5px;
+}
+
+#spinButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: white;
+  color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#result {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+#bonusText {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
